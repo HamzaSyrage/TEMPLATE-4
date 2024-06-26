@@ -298,12 +298,102 @@ margin-bottom: 0;
     width: 80px;
     height: 80px;
 }
-.targets .status.blue .prog-bar {
-    background-color: var(--blue-alt-color);
+.targets .info-status {
+    flex: 1;
+}
+.targets span {
+    color: var(--grey-color);
+    font-size: 14px;
+}
+.targets p {
+    margin: 5px 0 10px;
+    font-weight: bold;
+}
+
+/* .targets .status.blue .prog-bar {
+background-color: var(--blue-alt-color);
 }
 .targets .status.blue ,
 .targets .status.blue .prog {
 color: var(--blue-color);
 background-color: rgb(0 117 255 / 20%);;
+} */
+.targets .prog-bar::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 6px;
+    font-size: 13px;
+    transform: translate(50% , calc(-100% - 10px));
 }
+.targets .prog-bar::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 5px solid transparent;
+    transform: translate(50% , -100%);
+}
+.targets .prog-bar {
+    height: 3px
+}
+.targets .blue .prog ,
+.targets .blue i {
+    background-color: rgb(0 117 255 / 20%);
+}
+.targets .blue .prog-bar {
+    background-color: var(--blue-color);
+    width: 85%;
+}
+.targets .blue i {
+    color: var(--blue-color);
+}
+.targets .blue .prog-bar::before {
+    content: "85%";
+    background-color: var(--blue-color);
+}
+.targets .blue .prog-bar::after {
+    border-top-color: var(--blue-color) ;
+}
+
+.targets .orange .prog ,
+.targets .orange i {
+    background-color: rgb(245 158 11 / 20%);
+}
+.targets .orange .prog-bar {
+    background-color: var(--orange-color);
+    width: 55%;
+}
+.targets .orange i {
+    color: var(--orange-color);
+}
+.targets .orange .prog-bar::before {
+    content: "55%";
+    background-color: var(--orange-color);
+}
+.targets .orange .prog-bar::after {
+    border-top-color: var(--orange-color) ;
+}
+
+.targets .green .prog ,
+.targets .green i {
+    background-color: rgb(34 197 94 / 20%);
+}
+.targets .green .prog-bar {
+    background-color: var(--green-color);
+    width: 75%;
+}
+.targets .green i {
+    color: var(--green-color);
+}
+.targets .green .prog-bar::before {
+    content: "75%";
+    background-color: var(--green-color);
+}
+.targets .green .prog-bar::after {
+    border-top-color: var(--green-color) ;
+}
+
 /* targets end  */
