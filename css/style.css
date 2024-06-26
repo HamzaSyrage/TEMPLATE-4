@@ -304,6 +304,6 @@ margin-bottom: 0;
 .targets .status.blue ,
 .targets .status.blue .prog {
 color: var(--blue-color);
-background-color: background-color: rgb(0 117 255 / 20%);;
+background-color: rgb(0 117 255 / 20%);;
 }
 /* targets end  */
