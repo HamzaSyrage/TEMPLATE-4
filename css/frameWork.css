@@ -37,6 +37,12 @@
 .bg-grey {
     background-color: var(--grey-color);
 }
+.b-ccc {
+    border: 1px solid #ccc;
+}
+.b-eee {
+    border: 1px solid #eee;
+}
 .d-flex {
     display: flex;
 }
@@ -124,7 +130,14 @@
 .click:hover {
     background-color: var(--blue-alt-color);
 }
-
+.ago {
+    height: fit-content;
+    width: fit-content;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 13px;
+}
 .top-center {
 top: 0;
 left: 50%;

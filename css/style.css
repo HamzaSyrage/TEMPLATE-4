@@ -403,6 +403,42 @@ background-color: rgb(0 117 255 / 20%);;
 
 }
 .tickets .info {
-    flex: 1 ;
+    width: calc(50% - 10px);
+}
+.tickets .info i {
+    font-size: 25px;
+}
+.tickets .info p {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 25px;
+}
+.tickets .info span {
+font-size: 12px;
 }
 /* Tickets Statistics :end  */
+
+/* news :start  */
+.news {
+
+}
+.news .content {
+
+}
+.news .info  {
+
+}
+.news .info img {
+
+}
+.news .info .info-text {
+
+}
+.news .info .info-text p {
+
+}
+.news .info .info-text span {
+
+} 
+
+/* news :end  */
