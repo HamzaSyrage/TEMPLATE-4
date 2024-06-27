@@ -426,16 +426,16 @@ font-size: 12px;
 
 }
 .news .info  {
-
+gap: 15px;
 }
 .news .info img {
-
+width: 100px;
 }
 .news .info .info-text {
-
+flex: 1;
 }
 .news .info .info-text p {
-
+margin-bottom: 6px;
 }
 .news .info .info-text span {
 
