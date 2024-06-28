@@ -442,3 +442,13 @@ font-size: 14px;
 } 
 
 /* news :end  */
+/* tasks start  */
+.tasks {
+
+}
+.tasks .info p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+/* tasks :end  */

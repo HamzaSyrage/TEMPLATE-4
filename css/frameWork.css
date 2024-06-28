@@ -59,6 +59,9 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+.flex-1 {
+flex: 1;
+}
 .gap-20 {
     gap: 20px;
 } 
@@ -151,6 +154,9 @@
     border-radius: 6px;
     padding: 4px 10px;
     font-size: 13px;
+}
+.delete:hover {
+color: var(--red-color);
 }
 .top-center {
 top: 0;
