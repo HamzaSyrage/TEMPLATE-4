@@ -465,3 +465,17 @@ font-size: 14px;
     width: 40px;
 }
 /* .uploads :end  */
+
+/* progress :start  */
+.progress {
+
+}
+.progress .content p {
+    font-weight: 500;
+} 
+/* progress end  */
+/* reminders :start  */
+.reminders {
+
+}
+/* .reminders end  */

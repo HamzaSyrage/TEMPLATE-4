@@ -37,11 +37,52 @@
 .bg-grey {
     background-color: var(--grey-color);
 }
+.bg-fff {
+    background-color: #fff !important;
+}
+.bg-blue-fff {
+animation-name: bg-blue-fff;
+animation-duration: 0.8s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes bg-blue-fff {
+    0% {
+        background-color: var(--blue-color);
+    }
+    100% {
+        background-color: #fff;
+    }
+}
 .b-ccc {
     border: 1px solid #ccc;
 }
 .b-eee {
     border: 1px solid #eee;
+}
+.border-none {
+    border: none;
+}
+.b-l {
+    border-left: 2px solid transparent;
+}
+.bc-blue {
+border-color: var(--blue-color);
+}
+.bc-orange {
+border-color: var(--orange-color);
+}
+.bc-red {
+border-color: var(--red-color);
+}
+.bc-green {
+    border-color: var(--green-color);
+}
+.bc-grey {
+    border-color: var(--grey-color);
+}
+.d-block {
+    display: block;
 }
 .d-flex {
     display: flex;
@@ -92,9 +133,6 @@ flex: 1;
 .bg-eee {
     background-color: #eee;
 }
-.border-none {
-    border: none;
-}
 .p-10 {
     padding: 10px;
 }
@@ -113,6 +151,12 @@ flex: 1;
 .pt-15 {
     padding-top: 15px;
 }
+.pl-15 {
+padding-left: 15px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -121,6 +165,12 @@ flex: 1;
 }
 .mb-20 {
     margin-bottom: 20px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-25 {
+    margin-top: 25px;
 }
 .bb-eee {
     border-bottom: 1px solid #eee;
@@ -186,13 +236,39 @@ flex: 1;
     font-size: 13px;
 }
 .delete:hover {
-color: var(--red-color);
+    color: var(--red-color);
 }
 .vanish {
     opacity: 0.3;
 }
 .th-line {
 text-decoration: line-through;
+}
+.bullet {
+    width: 22px;
+    height: 22px;
+    background-color: var(--blue-color);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    outline: 2px solid var(--blue-color);
+    position: relative;
+    z-index: 2;
+}
+.bullet-bar::after {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 2px;
+    background-color: var(--blue-color);
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 25px);
+    z-index: -1;
+}
+.pins {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
 }
 .top-center {
 top: 0;
