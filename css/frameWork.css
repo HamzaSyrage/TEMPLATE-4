@@ -158,6 +158,12 @@ flex: 1;
 .delete:hover {
 color: var(--red-color);
 }
+.vanish {
+    opacity: 0.3;
+}
+.th-line {
+text-decoration: line-through;
+}
 .top-center {
 top: 0;
 left: 50%;
