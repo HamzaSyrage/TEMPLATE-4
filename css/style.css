@@ -479,3 +479,74 @@ font-size: 14px;
 
 }
 /* .reminders end  */
+/* posts :start  */
+.posts {
+
+}
+.posts img {
+    width: 48px;
+}
+.posts .text {
+font-weight: 500;
+min-height: 140px;
+line-height: 1.8;
+}
+.posts .status {
+    justify-content: space-between;
+}
+/* posts end  */
+/* social start  */
+.social {
+
+}
+.social .icon {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    transition-duration: var(--main-transition);
+}
+.social .icon:hover { 
+    transform: rotate(5deg);
+}
+.social .icon i {
+    font-size: 2em;
+}
+.social .text {
+    font-weight: 500;
+}
+.social a {
+    margin-right: 15px;
+}
+.social .info:nth-child(1) {
+    background-color: #d2ecfc;
+    color: #1da1f2;
+}
+.social .info:nth-child(1) .icon ,
+.social .info:nth-child(1) a {
+background-color: #1da1f2 ;
+}
+.social .info:nth-child(2) {
+    background-color: #d1e4fc;
+    color: #1877f2;
+}
+.social .info:nth-child(2) .icon ,
+.social .info:nth-child(2) a {
+background-color: #1877f2 ;
+}
+.social .info:nth-child(3) {
+    background-color: #ffcccc;
+    color: #ff0000;
+}
+.social .info:nth-child(3) .icon ,
+.social .info:nth-child(3) a {
+background-color: #ff0000 ;
+}
+.social .info:nth-child(4) {
+    background-color: #cce4f0;
+    color: #0077b5;
+}
+.social .info:nth-child(4) .icon ,
+.social .info:nth-child(4) a {
+background-color: #0077b5 ;
+}
+/* social end  */
