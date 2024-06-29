@@ -457,16 +457,22 @@ text-decoration: line-through;
     position: relative;
     z-index: 2;
 }
-.bullet-bar::after {
+.progress.box > .content {
+position: relative;
+} 
+.progress.box > .content::before {
     content: "";
     position: absolute;
-    height: 22px;
+    height: 70%;
     width: 2px;
     background-color: var(--blue-color);
-    bottom: 0;
-    left: 50%;
+    top: 20px;
+    left: 30.5px;
     transform: translate(-50%, 25px);
-    z-index: -1;
+
+}
+.bullet-bar::after {
+
 }
 .pins {
     width: 15px;
