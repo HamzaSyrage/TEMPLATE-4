@@ -823,6 +823,7 @@ transition-duration: var(--main-transition);
     justify-content: flex-end;
 }
 .pro .info {
+flex-wrap: wrap;
 justify-content: space-between;
 }
 .pro .prog {
