@@ -878,3 +878,55 @@ background-color: var(--red-color);
 width: 80%;
 }
 /* ! .projects end  */
+
+/* ! courses :start  */
+.couerse-wrapper {
+    display: grid ;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.courses-box {
+    /* width: 300px; */
+    background-color: #fff;
+    border-radius: 10px;
+}
+.courses-box .head {
+position: relative;
+}
+.courses-box .head .back {
+    
+}
+.courses-box .head .back img {
+    width: 100%;
+}
+.courses-box .head .avtart {
+
+}
+.courses-box .head .avtart img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    top: 20px;
+    left: 20px;
+    border: 2px solid white;
+}
+.courses-box .more {
+    padding: 4px 10px;
+    border-radius: 6px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 13px;
+    background-color: var(--blue-color);
+
+}
+.courses-box .more a {
+    color: #fff;
+}
+.courses-box .foot {
+    justify-content: space-between;
+}
+/* ! courser end */
