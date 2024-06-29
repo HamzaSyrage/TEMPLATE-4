@@ -806,6 +806,7 @@ transition-duration: var(--main-transition);
     grid-template-columns: repeat(auto-fill , 25px);
 }
 .pro .image img {
+    display: block;
     width: 40px !important;
     height: 40px !important;
     border: 2px solid #fff;
