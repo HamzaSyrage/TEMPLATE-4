@@ -791,3 +791,86 @@ transition-duration: var(--main-transition);
 
 /* skills end */
 /*! profile end  */
+
+/* !project start  */
+.pro {
+
+}
+.pro .date {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.pro .image {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , 25px);
+}
+.pro .image img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition-duration: var(--main-transition);
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+.pro .image img:hover {
+    z-index: 2;
+}
+.pro .text {
+    justify-content: flex-end;
+}
+.pro .info {
+justify-content: space-between;
+}
+.pro .prog {
+    width: 260px;
+    height: 7px;
+    background-color: #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.pro .prog::before {
+    content: "";
+    display: block;
+    border-radius: 6px;
+    /* width: 95%; */
+    height: 100%;
+    background-color: var(--green-color);
+}
+.wrapper .pro:nth-child(1) .prog::before {
+    width: 40%;
+    background-color: var(--red-color);
+}
+.wrapper .pro:nth-child(2) .prog::before {
+    width: 60%;
+}
+.wrapper .pro:nth-child(3) .prog::before {
+    width: 55%;
+}
+.wrapper .pro:nth-child(4) .prog::before {
+    width: 90%;
+}
+.wrapper .pro:nth-child(5) .prog::before {
+    width: 30%; 
+    background-color: var(--red-color);
+}
+.wrapper .pro:nth-child(6) .prog::before {
+    width: 70%;
+}
+.wrapper .pro:nth-child(7) .prog::before {
+    width: 60%;
+}
+.wrapper .pro:nth-child(8) .prog::before {
+    width: 100%;
+    background-color: var(--blue-color);
+}
+.wrapper .pro:nth-child(9) .prog::before {
+width: 20%;
+background-color: var(--red-color);
+}
+.wrapper .pro:nth-child(10) .prog::before {
+width: 80%;
+}
+/* ! .projects end  */
