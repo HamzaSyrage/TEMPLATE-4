@@ -821,14 +821,13 @@ overflow: hidden;
 }
 .pro .text {
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 .pro .info {
 flex-wrap: wrap;
 justify-content: space-between;
 }
-.pro .text {
-    flex-wrap: wrap;
-}
+
 .pro .prog {
     width: 260px;
     height: 7px;
