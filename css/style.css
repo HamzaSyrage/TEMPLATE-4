@@ -811,12 +811,12 @@ transition-duration: var(--main-transition);
     border: 2px solid #fff;
     border-radius: 50%;
     transition-duration: var(--main-transition);
-    /* position: relative; */
-    /* z-index: 1; */
+    position: relative;
+    z-index: 1;
     cursor: pointer;
 }
 .pro .image img:hover {
-    /* z-index: 2; */
+    z-index: 2;
 }
 .pro .text {
     justify-content: flex-end;
