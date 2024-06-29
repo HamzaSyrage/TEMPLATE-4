@@ -794,7 +794,7 @@ transition-duration: var(--main-transition);
 
 /* !project start  */
 .pro {
-
+overflow: hidden;
 }
 .pro .date {
     position: absolute;
@@ -825,6 +825,9 @@ transition-duration: var(--main-transition);
 .pro .info {
 flex-wrap: wrap;
 justify-content: space-between;
+}
+.pro .text {
+    flex-wrap: wrap;
 }
 .pro .prog {
     width: 260px;
