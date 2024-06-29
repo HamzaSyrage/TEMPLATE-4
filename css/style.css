@@ -514,7 +514,9 @@ background-color: rgb(0 117 255 / 20%);;
 
 /* prject end  */
 
-/* end dashboard  */
+/*! end dashboard  */
+
+/*! settings start  */
 
 /* control start  */
 .control {}
@@ -720,3 +722,47 @@ background-color: rgb(0 117 255 / 20%);;
 }
 
 /* Backup Manager end  */
+
+/*! settings end */
+
+/*! profile start  */
+
+/* main start  */
+
+.profile {
+    width: calc(100% - 40px) !important;
+    margin: 0 20px;
+}
+.profile .main img {
+width: 120px;
+}
+.profile .main .prog {
+    height: 6px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.profile .main .prog::before {
+    content: "";
+    background-color: var(--blue-color);
+    display: block;
+    width: 76%;
+    height: 100%;
+}
+.profile .sub-main .info {
+transition-duration: var(--main-transition);
+}
+.profile .sub-main .info:hover {
+    background-color: #f9f9f9;
+}
+.profile .sub-main .info .text {
+    display: inline-flex;
+    min-width: 250px;
+}
+.profile .sub-main .info > input {
+    min-width: 250px;
+} 
+/* main end  */
+
+/*! profile end  */
