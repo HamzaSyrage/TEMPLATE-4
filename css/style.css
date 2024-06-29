@@ -765,4 +765,29 @@ transition-duration: var(--main-transition);
 } 
 /* main end  */
 
+/* skills  start*/
+.skills-p {
+    width: calc(100% - 40px) !important;
+    margin: 20px 20px;
+}
+@media (max-width:767px) {
+    .skills-p .sub-main ,
+    .skills-p .main {
+        width: calc(100% - 40px) !important;
+    }
+    .skills-p .main .content .info {
+        justify-content: center;
+    }
+}
+.skills-p .main ,
+.skills-p .sub-main {
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.skills-p .sub-main img {
+    width: 64px;
+}
+
+/* skills end */
 /*! profile end  */

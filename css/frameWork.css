@@ -198,7 +198,9 @@
 .pb-n {
     padding-bottom: 0;
 }
-
+.pb-5 {
+    padding-bottom: 5px;
+}
 .pb-10 {
     padding-bottom: 10px;
 }
